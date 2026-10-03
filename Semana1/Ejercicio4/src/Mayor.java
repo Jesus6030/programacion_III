@@ -17,8 +17,16 @@ public class Mayor {
             System.out.println("El mayor número es: " + a);
         } else if (b >a && b > c) {
             System.out.println("El mayor número es: " + b);
-        }else{
+        }else if (c > a && c > b) {
             System.out.println("El mayor número es: " + c);
-        };
+        }else if (a == b && a > c) {
+            System.out.println("Los mayores números son: " + a + " y " + b);
+        }else if (a == c && a > b) {
+            System.out.println("Los mayores números son: " + a + " y " + c);
+        }else if (b == c && b > a) {
+            System.out.println("Los mayores números son: " + b + " y " + c);
+        }else {
+            System.out.println("Todos los números son iguales: " + a);
+        }
     }
 }

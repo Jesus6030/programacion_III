@@ -6,10 +6,8 @@ public class LongitudNombre {
         String apellido = Esdia.readString("Introduce tu apellido: ");
         int n = "* Nombre".length();
         int m = "* Apellido *".length();
-        int x = n+m;
         int a = 2+nombre.length();
         int b = 2+apellido.length();
-        int y = a+b;
 
         int i = 0;
         int j = 0;
